@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.main{
+    padding: 0px;
+    margin: 0px;
+    background-color: #2F4F4F;
+    height: 100px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 35%;
+    background: #f1f1f1;
+    position: relative;
+    left: 350px;
+    top: -21px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 7%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    position: relative;
+    left: 350px;
+    top: -20px;
+
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .pic{
+      height: 50px;
+      width: 50px;
+      position:absolute;
+      left: 40px;
+      top: 30px;
+  }
+
+  .top-social{
+    float: right;
+    margin-right: 5%;
+    padding: 14px 15px;
+    font-size: 25px;
+    position: relative;
+    top: -30px;
+    
+  }
+  .top-social a{
+    padding: 13px;
+    color: #fff;
+  }
+  .top-social a:hover{
+    color: blue
+  }
+  .container{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+*{
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'open sans',sans-serif;
+}
+body{
+  background: #f5f6fa;
+}
+.wrapper .sidebar{
+  background: rgb(5,68,104);
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 225px;
+  height:1020px ;
+  padding: 20px;
+  transition: all 0.5s ease;
+  top: 116px;
+
+}
+.wrapper .sidebar ul li a{
+  display: block;
+  padding: 13px 30px;
+  border-bottom: 1px solid #10558d;
+  color: rgb(241,237,237);
+  font-size: 16px;
+  position: relative;
+}
+.wrapper .sidebar ul li a.icon{
+  color: #dee4ec;
+  width: 30px;
+  display: inline-block;
+}
+/* Link hover*/
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+  color: #0c7db1;
+  background: white;
+  border-right: 2px solid rgb(5,68,104);
+
+}
